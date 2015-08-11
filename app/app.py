@@ -14,4 +14,4 @@ def hello():
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', use_reloader=True, debug=True, threaded=True)
+    app.run('0.0.0.0', use_reloader=True)

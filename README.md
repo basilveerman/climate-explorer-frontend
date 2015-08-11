@@ -10,7 +10,7 @@ This docker image relies upon pcic/geospatial-python. Make sure you have an upda
 
 ## Contributing
 
-HTML templates are in `src/templates`. Currently these are basic HTML but will also be rendered using the Jade templating engine
+HTML templates are in `app/templates`. Currently these are basic HTML but will also be rendered using the Jinja2 templating engine
 
 ReactJS components can be embeded in the HTML file (eg: `hello.html`) or `src/static/scripts/jsx/main.js`. The jsx needs to be compiled into js to run in the browser. Outside of the container, just run the default `gulp` task and any changes in `jsx/main.js` will be compiled into `js/main.js` automatically
 

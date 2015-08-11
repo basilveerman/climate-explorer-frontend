@@ -6,4 +6,4 @@ RUN pip install -r /app/requirements.txt
 
 EXPOSE 5000
 
-CMD python /app/src/app.py
+CMD python /app/app/app.py
